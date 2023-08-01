@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #004d99;
+            text-align: center;
+        }
+
+        p {
+            color: #333;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .prediction-container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .result-text {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="prediction-container">
+        <h1>Prediction Result</h1>
+        <p class="result-text">Species: {{ species }}</p>
+    </div>
+</body>
+</html>
